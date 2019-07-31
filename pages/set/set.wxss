@@ -1,3 +1,35 @@
 .body{
-  background-color: #C0C0C0;
+  background-color: rgb(236, 235, 235);
+}
+.shouye{
+  width: 700rpx;
+  height: 420rpx;
+  margin: 0 auto;
+  background-color: white;
+  border-radius:5px;
+  border: 1rpx solid red;
+}
+.img{
+  width: 100%;
+  height: 300rpx;
+}
+.tip1{
+  float: left;
+  margin-right: 120rpx;
+  margin-left: 20rpx;
+}
+.tip2{
+  float: left;
+  margin-right: 120rpx;
+}
+.tip3{
+  margin-right: 20rpx;
+}
+.num{
+  font-size: 35rpx;
+  font-weight: bold;
+  color: red;
+}
+.font{
+  font-size: 35rpx;
 }

@@ -29,7 +29,7 @@
     </view>
   </view>
 
-  <view class='guanggao'>
+  <!-- <view class='guanggao'>
     <image class="img1" src="../../images/guanggao.png"/>
   </view>
 
@@ -44,6 +44,6 @@
     <view>
 
     </view>
-  </view>
+  </view> -->
 
 </view>
