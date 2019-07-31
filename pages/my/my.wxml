@@ -1,0 +1,32 @@
+<template name="client">
+  <view>
+    {{item.username}}---{{item.age}}---{{item.sex}}
+  </view>
+</template>
+<view>asd</view>
+<template name="test">
+  <view>
+    123123123
+  </view>
+</template>
+
+<view wx:for="{{user}}">
+<template is="client" data="{{item}}"></template>
+</view>
+
+<view class='input-css'>
+<input value='send' confirm-type='send'></input>
+<input value='search' confirm-type='search'></input>
+<input value='next' confirm-type='next'></input>
+<input value='go' confirm-type='go'></input>
+<input value='完成' confirm-type=''></input>
+</view>
+
+<input value='test' bindinput='test'></input>
+<!-- bindinput事件点击输入内容时，返回方法中定义好的内容 -->
+<input value='test1' bindfocus='test1'></input>
+<!-- bindfocus事件点击输入内容时，返回方法中定义好的内容 -->
+<input value='test2' bindblur='test2'></input>
+<!-- bindblur事件点击输入内容时，返回方法中定义好的内容 -->
+<input value='test3' bindconfirm='test3'></input>
+<!-- bindconfirm事件点击输入内容时，返回方法中定义好的内容 -->

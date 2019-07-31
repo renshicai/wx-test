@@ -1,0 +1,13 @@
+<view>
+  <input bindinput='i1' placeholder='输入姓名'></input>
+  <input bindinput='i2' placeholder='输入语文成绩'></input>
+  <input bindinput='i3' placeholder='输入科目'></input>
+</view>
+<button type='primary'bindtap='test'>提交</button>
+
+<view class='content'hidden="{{flag}}">
+  <view class='content-item'>姓名：{{name}}</view>
+  <view class='content-item'>语文成绩：{{yuwen}}</view>
+  <view class='content-item'>数学成绩：{{shuxue}}</view>
+  <view class='content-item'>平均分：{{junfen}}</view>
+</view>

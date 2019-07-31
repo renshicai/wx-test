@@ -1,0 +1,33 @@
+/* @import "../index/index.wxss";
+.a{
+  height: 120rpx;
+  width: 400rpx;
+  background: skyblue;
+  color: red;
+  margin-top: 30%;
+} */
+/* 这里的样式可以覆盖全局样式app.wxss */
+
+.contect{
+  width: 750rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contect-item{
+  width: 230rpx;
+  height: 150rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  background: #000;
+  color:#fff;
+}
+input{
+  height: 100rpx;
+  margin: 10rpx;
+  background: skyblue;
+}

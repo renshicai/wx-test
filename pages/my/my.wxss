@@ -1,0 +1,10 @@
+input{
+  margin-top: 100rpx;
+  border: thin solid blue;
+  border-radius: 15px;
+  margin: 0 0 3px 18px;
+  width: 270px;
+}
+.input-css{
+  margin-top: 20px;
+}

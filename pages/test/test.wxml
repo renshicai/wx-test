@@ -1,0 +1,24 @@
+<!-- <import src="../my/my.wxml"/>
+<include src="../my/my.wxml"/>
+<template is="test"/>
+<view bindtouchstart='test2'>点击</view>
+<view>{{name}}</view> -->
+<!-- <view class='a b' style="color:blue">ceshidaima</view> -->
+
+<view class='contect'>
+  <view class='contect-item' style="background:skyblue">1</view>
+  <view class='contect-item' style="background:red">2</view>
+  <view class='contect-item' style="background:#000; color:white;">3</view>
+</view>
+
+<button size='mini'hover-class="btn">按钮1</button>
+<button type='warn'loading="h">按钮2</button>
+<button type='primary' plain='h' disabled='h'>按钮3</button>
+<button>按钮4</button>
+
+<input value='text' type="text"></input>
+<input value='number' type="number"></input>
+<input value='idcard' type="idcard"></input>
+<input value='digit' type="digit"></input>
+<input value='123' focus='{{flag}}'></input>
+<button bindtap='jiaodian' type='primary'>获取</button>

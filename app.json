@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/set/set",
+    "pages/index/index",
+    "pages/math/math",
+    "pages/info/info",
+    "pages/my/my",
+    "pages/student/student",
+    "pages/test/test",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#white",
+    "navigationBarTitleText": "无糖",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#00DDDD",
+    "enablePullDownRefresh": true
+  },
+  "tabBar":{
+    "color":"#000000",
+    "selectedColor":"#E22018",
+    "backgroundColor":"#1195ee",
+    "borderStyle":"white",
+    "position":"bottom",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text":"首页",
+        "iconPath":"icon/icon_03.png",
+        "selectedIconPath":"icon/icon_21.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "信息",
+        "iconPath": "icon/icon_07.png",
+        "selectedIconPath": "icon/icon_21.png"
+      },
+      {
+        "pagePath": "pages/set/set",
+        "text": "设置",
+        "iconPath": "icon/icon_02.png",
+        "selectedIconPath": "icon/icon_21.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "icon/icon_05.png",
+        "selectedIconPath": "icon/icon_21.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "测试",
+        "iconPath": "icon/icon_18.png",
+        "selectedIconPath": "icon/icon_21.png"
+      }
+    ]
+  },
+
+  "sitemapLocation": "sitemap.json"
+}

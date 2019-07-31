@@ -1,0 +1,15 @@
+<!-- <view>我的信息展示：</view>
+<view>名字：{{user.name}}</view>
+<view>年龄：{{user.age}}</view>
+<view>爱好：{{user.interest}}</view>
+<view hidden='{{flag?true:false}}'>时间：{{time}}</view> -->
+
+<block wx:for="{{iconType}}" wx:for-item="icon">
+  <block wx:for="{{iconSize}}" wx:for-item="size">
+    <icon type="{{icon}}" size="{{size}}"></icon>
+  </block>
+  <view></view>
+</block>
+
+<view></view>
+<slider step='10'  backgroundColor='red' min='0' max='100' show-value></slider>
