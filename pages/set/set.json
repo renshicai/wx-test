@@ -1,7 +1,7 @@
 {
   "navigationBarBackgroundColor": "#CCBBFF",
   "navigationBarTextStyle": "white",
-  "navigationBarTitleText": "设置",
-  "backgroundColor": "#ffffff",
-  "backgroundTextStyle": "light"
+  "navigationBarTitleText": "金虎便利",
+  "backgroundColor": "#D9D9F3",
+  "backgroundTextStyle": "dark"
 }
