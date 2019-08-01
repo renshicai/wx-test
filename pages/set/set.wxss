@@ -1,13 +1,13 @@
 .body{
   background-color: rgb(236, 235, 235);
+  text-align:center;
 }
 .shouye{
   width: 700rpx;
   height: 420rpx;
   margin: 0 auto;
   background-color: white;
-  border-radius:5px;
-  border: 1rpx solid red;
+  border-radius:20rpx;
 }
 .img{
   width: 100%;
@@ -32,4 +32,61 @@
 }
 .font{
   font-size: 35rpx;
+}
+.guanggao{
+  padding-top: 15rpx;
+  width: 700rpx;
+  height: 160rpx;
+  margin: 0 auto;
+  border-radius:20rpx;
+  margin-bottom: 15rpx;
+}
+.img1{
+  width: 700rpx;
+  height: 160rpx;
+}
+.bom{
+  padding-top: 15rpx;
+  width: 700rpx;
+  height: 160rpx;
+  background-color: white;
+  margin: 0 auto;
+  border-radius:20rpx;
+  margin-bottom: 20rpx;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  text-align: center;
+  line-height: 160rpx;
+  margin-left: 30rpx;
+}
+.icon{
+  width: 100rpx;
+  height: 90rpx;
+  margin: 0 auto;
+  
+}
+
+.tap{
+  margin-left: 30rpx;
+  margin-right: 110rpx;
+}
+.tap1{
+  margin-left: 30rpx;
+}
+.er{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 160rpx;
+}
+.iconer{
+  width: 100rpx;
+  height: 90rpx;
 }

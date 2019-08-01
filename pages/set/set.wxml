@@ -29,21 +29,60 @@
     </view>
   </view>
 
-  <!-- <view class='guanggao'>
+  <view class='guanggao'>
     <image class="img1" src="../../images/guanggao.png"/>
   </view>
 
-  <view>
+  <view class='bom'>
     <view class='icons'>
       <image class="icon" src="../../images/tiaoxingma.png"/>
-      <text class='tap'>
+      <view class='tap'>
         会员码
-      </text>
+      </view>
     </view>
-
-    <view>
-
+    <view class='icons'>
+      <image class="icon" src="../../images/fukuan.png"/>
+      <view class='tap1'>
+        付款
+      </view>
     </view>
-  </view> -->
+  </view>
+
+  <view class='bom'>
+    <view class='icons'>
+      <image class="icon" src="../../images/chongzhi.png"/>
+      <view class='tap'>
+        充值
+      </view>
+    </view>
+    <view class='icons'style='margin-left:32px;'>
+      <image class="icon" src="../../images/ziliao.png"/>
+      <view class='tap1'>
+        资料
+      </view>
+    </view>
+  </view>
+
+  <view class='bom'>
+    <view class='icons'>
+      <image class="icon" src="../../images/shangcheng.png" />
+      <view class='tap'>
+        充值
+      </view>
+    </view>
+    <view class='icons'style='margin-left:32px;'>
+      <image class="icon" src="../../images/dingdan.png" />
+      <view class='tap1'>
+        资料
+      </view>
+    </view>
+  </view>
+
+  <view class='bom'>
+    <view class='er'>
+       <image class="iconer" src="../../images/erweima.png" />
+        我的分享码
+    </view>
+  </view>
 
 </view>
